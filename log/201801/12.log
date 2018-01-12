@@ -1,0 +1,1058 @@
+---------------------------------------------------------------
+[ 2018-01-12T21:14:31+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：1.128000s][吞吐率：0.89req/s] [内存消耗：3,147.33kb] [文件加载：51]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '56cd87be-2e16-4c5a-9b48-54a794c138ae',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------010173289124537025372756',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.107000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.222000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.199000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.032000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.002000s ]
+[ error ] [0]variable type error： array[F:\wamp\www\zerg\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-12T21:14:58+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.136000s][吞吐率：7.35req/s] [内存消耗：3,147.33kb] [文件加载：51]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7e178d3b-2e29-4906-8c0c-02ba75f1808a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------920479180688421495023445',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.002000s ]
+[ error ] [0]variable type error： array[F:\wamp\www\zerg\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-12T21:15:15+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：2,925.31kb] [文件加载：48]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f33fb5d-4791-4765-9486-af7fe5096b8e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------541034321109779658207709',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array[F:\wamp\www\zerg\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-12T21:15:17+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：2,925.31kb] [文件加载：48]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0d0e520d-045c-4232-9112-88a2417c6e35',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------699573403897623618265681',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+[ error ] [0]variable type error： array[F:\wamp\www\zerg\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-12T21:15:18+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：2,925.31kb] [文件加载：48]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd5bf1165-e8e3-43bd-b760-ec30ff821b07',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------050012820356910181136177',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+[ error ] [0]variable type error： array[F:\wamp\www\zerg\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-12T21:15:51+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：1,734.77kb] [文件加载：37]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6c453094-5c21-4153-9c04-8c832cccaaee',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------467086478756237999213219',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\wamp\www\zerg\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-12T21:16:52+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,512.67kb] [文件加载：34]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'db4461a4-be9c-4cfc-8142-71fa52c6ce43',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------203679151107189944763757',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[F:\wamp\www\zerg\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-12T21:17:16+08:00 ] 127.0.0.1 POST /banner/index
+[ info ] www.zn.cn/banner/index [运行时间：0.074000s][吞吐率：13.51req/s] [内存消耗：1,512.79kb] [文件加载：34]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Banner',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c984c18f-d1e0-44e0-a4d1-f5d30d9c6546',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------999051492825071326864280',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[F:\wamp\www\zerg\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-01-12T21:17:24+08:00 ] 127.0.0.1 POST /banner/index/1
+[ info ] www.zn.cn/banner/index/1 [运行时间：0.186000s][吞吐率：5.38req/s] [内存消耗：2,958.50kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Banner',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7d1c735f-4c04-48fb-8092-7937326b0b91',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------919988679804087994335137',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Banner->index[ F:\wamp\www\zerg\application\api\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.069000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.028000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:18:08+08:00 ] 127.0.0.1 POST /banner/index/1
+[ info ] www.zn.cn/banner/index/1 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,958.50kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Banner',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3bf91404-ee30-4bac-b455-c3a769b28790',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------388239259635705621503037',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Banner->index[ F:\wamp\www\zerg\application\api\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:18:40+08:00 ] 127.0.0.1 POST /banner/index/1
+[ info ] www.zn.cn/banner/index/1 [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：2,958.50kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Banner',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7b7fb04b-e9ad-49a7-a527-32f198f76a58',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------631342212866845158531770',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Banner->index[ F:\wamp\www\zerg\application\api\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:18:49+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,470.91kb] [文件加载：32]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '07b99440-b702-488f-8b1c-b32ca169b1a2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------595076805768688243211688',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-12T21:19:20+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.112000s][吞吐率：8.93req/s] [内存消耗：3,115.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd4ed2ff2-d9aa-4759-879b-6dfafd4a5cbf',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------193486265282388920258799',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:25:57+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.144000s][吞吐率：6.94req/s] [内存消耗：3,232.16kb] [文件加载：54]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dccf6e53-6795-4d18-b0d8-f62558cf51de',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------883561558070173590922645',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]pivot model must extends: \think\model\Pivot[F:\wamp\www\zerg\thinkphp\library\think\model\relation\BelongsToMany.php:81]
+---------------------------------------------------------------
+[ 2018-01-12T21:28:33+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：3,231.86kb] [文件加载：54]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eaa9d8ba-025a-44f7-82d2-0624fc7f43b8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------575369978780977139194055',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]pivot model must extends: \think\model\Pivot[F:\wamp\www\zerg\thinkphp\library\think\model\relation\BelongsToMany.php:81]
+---------------------------------------------------------------
+[ 2018-01-12T21:28:45+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：3,147.33kb] [文件加载：51]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '91a6da6e-6975-41a6-bba9-77067bb9c2bf',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------457842678949329038335741',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+[ error ] [0]variable type error： array[F:\wamp\www\zerg\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2018-01-12T21:29:06+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：3,115.16kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d31dba6-73cc-482a-8a28-2a1f8feb5052',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------525935137920994990587078',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:29:33+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.087000s][吞吐率：11.49req/s] [内存消耗：3,105.98kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a5297c23-e2bc-4bd0-9b84-7fa32379391a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------118277300856669590280138',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:29:59+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：3,115.16kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0aeb1724-c913-4520-b24d-676a553bdf58',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------312698820468245282551332',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:31:18+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：3,115.48kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3bf702c5-0008-4c85-8e70-bd3b0e4002ec',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------447414690269823874606506',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:31:31+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：3,115.73kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9f8f49a0-2403-4462-b6a0-30333d34c255',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------851512700485136500170513',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:35:26+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.071000s][吞吐率：14.08req/s] [内存消耗：3,115.73kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2427fb0f-1557-4b8e-8627-54838f0385c2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------039754865656817169442281',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:35:36+08:00 ] 127.0.0.1 POST /them/index/1,2
+[ info ] www.zn.cn/them/index/1,2 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：3,232.45kb] [文件加载：54]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getSilmpleList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '447b31a9-73ca-45a5-93ab-33e00e77636b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------471035960778201965098562',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+  'ids' => '1,2',
+)
+[ info ] [ RUN ] app\api\controller\Them->getSilmpleList[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]pivot model must extends: \think\model\Pivot[F:\wamp\www\zerg\thinkphp\library\think\model\relation\BelongsToMany.php:81]
+---------------------------------------------------------------
+[ 2018-01-12T21:51:58+08:00 ] 127.0.0.1 POST /them/product/1
+[ info ] www.zn.cn/them/product/1 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,896.32kb] [文件加载：48]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getThemProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '185872b9-9990-4a6e-9f14-3956e26f6449',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------258294824380826232037641',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Them->getThemProduct[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]pivot model must extends: \think\model\Pivot[F:\wamp\www\zerg\thinkphp\library\think\model\relation\BelongsToMany.php:81]
+---------------------------------------------------------------
+[ 2018-01-12T21:52:45+08:00 ] 127.0.0.1 POST /them/product/1
+[ info ] www.zn.cn/them/product/1 [运行时间：0.192000s][吞吐率：5.21req/s] [内存消耗：3,091.84kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getThemProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '44a39de6-e9b2-48d2-84bd-6eff6ad2dce6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------526705136728029859696645',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Them->getThemProduct[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.040000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:53:07+08:00 ] 127.0.0.1 POST /them/product/1
+[ info ] www.zn.cn/them/product/1 [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：3,104.74kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getThemProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bb65f566-240d-4b9d-9ce4-abad7940aa00',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------902709945977037787968485',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Them->getThemProduct[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:56:38+08:00 ] 127.0.0.1 POST /them/product/1
+[ info ] www.zn.cn/them/product/1 [运行时间：0.073000s][吞吐率：13.70req/s] [内存消耗：3,105.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getThemProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '59c9fda5-934f-475f-8238-c922bf814d75',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------539129346814017101656273',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Them->getThemProduct[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:56:40+08:00 ] 127.0.0.1 POST /them/product/1
+[ info ] www.zn.cn/them/product/1 [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：3,105.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getThemProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '29bad517-6797-4337-9f83-3a69d58195fe',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------033024844021141880554906',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Them->getThemProduct[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-12T21:57:48+08:00 ] 127.0.0.1 POST /them/product/1
+[ info ] www.zn.cn/them/product/1 [运行时间：0.084000s][吞吐率：11.90req/s] [内存消耗：3,105.74kb] [文件加载：50]
+[ info ] [ LANG ] F:\wamp\www\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Them',
+    2 => 'getThemProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2e95495a-d1b9-45ee-b0fd-c7d53832eace',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'www.zn.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------761455501364615576733244',
+  'content-length' => '160',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Them->getThemProduct[ F:\wamp\www\zerg\application\api\controller\Them.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.002000s ]
